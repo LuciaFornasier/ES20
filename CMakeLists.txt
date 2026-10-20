@@ -3,6 +3,4 @@ project(estpsit C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(estpsit main.cpp
-        main.cpp
-        main.cpp)
+add_executable(estpsit main.cpp)
