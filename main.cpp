@@ -137,6 +137,13 @@ public:
 int main(void) {
     Dipendente dipente;
     PC pc;
-
+    int pos = dip.cercaPerCodice(1);
+    if (pos != -1) {
+        dip.caratteristiche(pos);
+    }
+    dip.cercaPerRam(16);
+    dip.stampaLista();
+    dip.salva("pc.dat");
+    dip.ripristina("pc.dat");
     return 0;
 }
